@@ -3,7 +3,7 @@
 <template>
     <header>
         <a href="https://www.madfingergames.com" target="_blank" rel="noopener noreferrer">
-            <img src="../assets/images/MFGlogo.png" alt="MADFINGER Games website">
+            <img src="../assets/images/MFGlogo.webp" alt="MADFINGER Games website">
         </a>
         <a href="https://grayzonewarfare.com" target="_blank" rel="noopener noreferrer">
             <img src="../assets/images/GZWlogo.webp" alt="Gray Zone Warfare website">
