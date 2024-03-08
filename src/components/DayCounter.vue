@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { DateTime } from "luxon";
 import { ref } from 'vue'
+import { useHead } from '@unhead/vue'
 
 const props = defineProps<{ lastDateIso: string }>()
 let dayCount = ref(0);
@@ -9,7 +10,20 @@ const lastDate = DateTime.fromISO(props.lastDateIso, { zone: "Europe/Prague" }).
 const now = DateTime.local().toUTC();
 
 dayCount.value = now.diff(lastDate, ['days', 'hours']).days;
-document.title = `${dayCount.value} days since Mara posted a company memo`
+
+useHead({
+    title: `It has been ${dayCount.value} days since Mara posted a company memo`,
+    meta: [
+        {
+            property: "og:title",
+            content: `It has been ${dayCount.value} days since Mara posted a company memo`,
+        },
+        {
+            name: "twitter:title",
+            content: `It has been ${dayCount.value} days since Mara posted a company memo`,
+        }
+    ]
+});
 
 </script>
 
