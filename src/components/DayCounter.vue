@@ -13,18 +13,7 @@ dayCount.value = now.diff(lastDate, ['days', 'hours']).days;
 
 useHead({
     title: `It has been ${dayCount.value} days since Mara posted a company memo`,
-    meta: [
-        {
-            property: "og:title",
-            content: `It has been ${dayCount.value} days since Mara posted a company memo`,
-        },
-        {
-            name: "twitter:title",
-            content: `It has been ${dayCount.value} days since Mara posted a company memo`,
-        }
-    ]
 });
-
 </script>
 
 <template>
