@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58881a37-b197-4944-8788-3e308b0e48dc/deploy-status)](https://app.netlify.com/sites/mara-memo/deploys)
+
 # Dependencies
 - Node 21
 - Vue 3.4

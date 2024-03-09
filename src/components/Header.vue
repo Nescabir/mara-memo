@@ -13,6 +13,7 @@
 
 <style scoped lang="scss">
     header {
+        height: 10vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -28,6 +29,7 @@
             }
         }
     }
+    
     @media(max-width: 768px) {
         header {
             a {
