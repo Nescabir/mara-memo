@@ -17,4 +17,10 @@
         margin-top: 5rem;
         min-width: 30%;
     }
+
+    @media (max-width: 768px) {
+        .tweetWrapper {
+            min-width: 20%;
+        }
+    }
 </style>
