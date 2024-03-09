@@ -21,6 +21,7 @@
     @media (max-width: 768px) {
         .tweetWrapper {
             min-width: 20%;
+            max-width: 80vw;
         }
     }
 </style>
