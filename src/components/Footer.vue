@@ -10,7 +10,6 @@
 
 <style scoped lang="scss">
     footer {
-        padding: 1em 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -21,6 +20,7 @@
             text-align: justify;
         }
     }
+
     @media(max-width: 768px) {
         footer {
             .infoText {
